@@ -1,0 +1,156 @@
+2017-10-24 14:51:26 org.logicalcobwebs.proxool.ProxoolFacade.registerConnectionPool(ProxoolFacade.java:86) ProxoolFacade.java INFO Proxool 0.9.1 (23-Aug-2008 11:10)
+2017-10-24 14:51:44 com.bjsxt.util.BjsxtJdbc.getConnect(BjsxtJdbc.java:66) BjsxtJdbc.java INFO info创建连接
+2017-10-24 14:51:45 com.bjsxt.util.BjsxtJdbc.getPreparedStatement(BjsxtJdbc.java:82) BjsxtJdbc.java INFO 创建sql命令发送器
+2017-10-24 14:51:46 com.bjsxt.util.BjsxtJdbc.closeAll(BjsxtJdbc.java:107) BjsxtJdbc.java INFO 关闭连接
+2017-10-24 14:53:34 org.logicalcobwebs.proxool.ConnectionPool.shutdown(ConnectionPool.java:484) ConnectionPool.java INFO Shutting down 'test' pool immediately [localhost-startStop-2]
+2017-10-24 14:53:34 org.logicalcobwebs.proxool.PrototyperController.shutdown(PrototyperController.java:100) PrototyperController.java INFO Stopping Prototyper thread
+2017-10-24 14:53:34 org.logicalcobwebs.proxool.HouseKeeperController.shutdown(HouseKeeperController.java:107) HouseKeeperController.java INFO Stopping HouseKeeper thread
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.configuration.PropertyConfigurator.configure(PropertyConfigurator.java:161) PropertyConfigurator.java DEBUG Created url: proxool.test:oracle.jdbc.OracleDriver:jdbc:oracle:thin:@127.0.0.1:1521:orcl
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.ProxoolFacade.registerConnectionPool(ProxoolFacade.java:86) ProxoolFacade.java INFO Proxool 0.9.1 (23-Aug-2008 11:10)
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.ConnectionPoolDefinition.logChange(ConnectionPoolDefinition.java:258) ConnectionPoolDefinition.java DEBUG Recognised proxool property: proxool.driver=oracle.jdbc.OracleDriver
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.ConnectionPoolDefinition.logChange(ConnectionPoolDefinition.java:258) ConnectionPoolDefinition.java DEBUG Recognised proxool property: proxool.url=jdbc:oracle:thin:@127.0.0.1:1521:orcl
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.ConnectionPoolDefinition.logChange(ConnectionPoolDefinition.java:258) ConnectionPoolDefinition.java DEBUG Recognised proxool property: proxool.statistics-log-level=error
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.ConnectionPoolDefinition.logChange(ConnectionPoolDefinition.java:258) ConnectionPoolDefinition.java DEBUG Recognised proxool property: proxool.statistics=10s,1m,1d
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.ConnectionPoolDefinition.logChange(ConnectionPoolDefinition.java:258) ConnectionPoolDefinition.java DEBUG Delegating property to driver: user=scott
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.ConnectionPoolDefinition.logChange(ConnectionPoolDefinition.java:258) ConnectionPoolDefinition.java DEBUG Delegating property to driver: password=********
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.ConnectionPoolDefinition.logChange(ConnectionPoolDefinition.java:258) ConnectionPoolDefinition.java DEBUG Recognised proxool property: proxool.maximum-connection-count=100
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.ConnectionPoolDefinition.logChange(ConnectionPoolDefinition.java:258) ConnectionPoolDefinition.java DEBUG Recognised proxool property: proxool.minimum-connection-count=5
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.ConnectionPoolDefinition.logChange(ConnectionPoolDefinition.java:258) ConnectionPoolDefinition.java DEBUG Recognised proxool property: proxool.verbose=true
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.ConnectionPoolDefinition.logChange(ConnectionPoolDefinition.java:258) ConnectionPoolDefinition.java DEBUG Recognised proxool property: proxool.prototype-count=4
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.admin.StatsRoller.<init>(StatsRoller.java:86) StatsRoller.java DEBUG Collecting first statistics for '10s' at Tue Oct 24 14:53:40 CST 2017
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.admin.StatsRoller.<init>(StatsRoller.java:86) StatsRoller.java DEBUG Collecting first statistics for '1m' at Tue Oct 24 14:54:00 CST 2017
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.admin.StatsRoller.<init>(StatsRoller.java:86) StatsRoller.java DEBUG Collecting first statistics for '1d' at Wed Oct 25 14:00:00 CST 2017
+2017-10-24 14:53:39 org.logicalcobwebs.proxool.ShutdownHook.<init>(ShutdownHook.java:73) ShutdownHook.java DEBUG Registered shutdownHook
+2017-10-24 14:53:40 org.logicalcobwebs.proxool.HouseKeeperController.register(HouseKeeperController.java:84) HouseKeeperController.java DEBUG Registering 'test' house keeper
+2017-10-24 14:53:40 org.logicalcobwebs.proxool.HouseKeeperController.register(HouseKeeperController.java:92) HouseKeeperController.java DEBUG Starting a house keeper thread
+2017-10-24 14:53:40 org.logicalcobwebs.proxool.ConnectionPool.displayStatistics(ConnectionPool.java:617) ConnectionPool.java INFO Proxool statistics legend: "s - r  (a/t/o)" > s=served, r=refused (only shown if non-zero), a=active, t=total, o=offline (being tested)
+2017-10-24 14:53:40 org.logicalcobwebs.proxool.HouseKeeper.sweep(HouseKeeper.java:171) HouseKeeper.java DEBUG 000000 (00/00/00) - House keeping triggerSweep done
+2017-10-24 14:53:40 org.logicalcobwebs.proxool.ConnectionResetter.initialise(ConnectionResetter.java:168) ConnectionResetter.java DEBUG Remembering default value: getTransactionIsolation() = 2
+2017-10-24 14:53:40 org.logicalcobwebs.proxool.ConnectionResetter.initialise(ConnectionResetter.java:168) ConnectionResetter.java DEBUG Remembering default value: getHoldability() = 1
+2017-10-24 14:53:40 org.logicalcobwebs.proxool.ConnectionResetter.initialise(ConnectionResetter.java:168) ConnectionResetter.java DEBUG Remembering default value: getCatalog() = null
+2017-10-24 14:53:40 org.logicalcobwebs.proxool.ConnectionResetter.initialise(ConnectionResetter.java:168) ConnectionResetter.java DEBUG Remembering default value: isReadOnly() = false
+2017-10-24 14:53:40 org.logicalcobwebs.proxool.ConnectionResetter.initialise(ConnectionResetter.java:168) ConnectionResetter.java DEBUG Remembering default value: getTypeMap() = {}
+2017-10-24 14:53:40 org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:204) Prototyper.java DEBUG 000000 (00/01/00) - Connection #1 (338d7673) created to achieve minimum of 5 = AVAILABLE -> jdbc:oracle:thin:@127.0.0.1:1521:orcl (3aff2f16) by thread Prototyper
+2017-10-24 14:53:40 org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:204) Prototyper.java DEBUG 000000 (00/02/00) - Connection #2 (31a7be2e) created to achieve minimum of 5 = AVAILABLE -> jdbc:oracle:thin:@127.0.0.1:1521:orcl (4fec8750) by thread Prototyper
+2017-10-24 14:53:40 org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:204) Prototyper.java DEBUG 000000 (00/03/00) - Connection #3 (235e2c80) created to achieve minimum of 5 = AVAILABLE -> jdbc:oracle:thin:@127.0.0.1:1521:orcl (20fc8863) by thread Prototyper
+2017-10-24 14:53:40 org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:204) Prototyper.java DEBUG 000000 (00/04/00) - Connection #4 (7cd82fe7) created to achieve minimum of 5 = AVAILABLE -> jdbc:oracle:thin:@127.0.0.1:1521:orcl (5963dbcb) by thread Prototyper
+2017-10-24 14:53:40 org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:204) Prototyper.java DEBUG 000000 (00/05/00) - Connection #5 (14399542) created to achieve minimum of 5 = AVAILABLE -> jdbc:oracle:thin:@127.0.0.1:1521:orcl (de56761) by thread Prototyper
+2017-10-24 14:53:45 com.bjsxt.util.BjsxtJdbc.getConnect(BjsxtJdbc.java:66) BjsxtJdbc.java INFO info创建连接
+2017-10-24 14:53:45 com.bjsxt.util.BjsxtJdbc.getConnect(BjsxtJdbc.java:67) BjsxtJdbc.java DEBUG debug创建连接
+2017-10-24 14:53:45 org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:255) ConnectionPool.java DEBUG 000001 (01/05/00) - Connection #1 served
+2017-10-24 14:53:45 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface java.sql.Connection
+2017-10-24 14:53:45 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface oracle.sql.BfileDBAccess
+2017-10-24 14:53:45 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface oracle.jdbc.internal.ClientDataSupport
+2017-10-24 14:53:45 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface oracle.jdbc.internal.OracleConnection
+2017-10-24 14:53:45 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface oracle.jdbc.OracleConnection
+2017-10-24 14:53:45 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface java.lang.AutoCloseable
+2017-10-24 14:53:45 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface java.sql.Wrapper
+2017-10-24 14:53:45 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface oracle.sql.BlobDBAccess
+2017-10-24 14:53:45 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface oracle.sql.ClobDBAccess
+2017-10-24 14:53:46 com.bjsxt.util.BjsxtJdbc.getPreparedStatement(BjsxtJdbc.java:82) BjsxtJdbc.java INFO 创建sql命令发送器
+2017-10-24 14:53:46 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface java.sql.PreparedStatement
+2017-10-24 14:53:46 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface oracle.jdbc.OraclePreparedStatement
+2017-10-24 14:53:46 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface oracle.jdbc.internal.OraclePreparedStatement
+2017-10-24 14:53:46 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface java.lang.AutoCloseable
+2017-10-24 14:53:46 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface java.sql.Wrapper
+2017-10-24 14:53:46 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface oracle.jdbc.internal.OracleStatement
+2017-10-24 14:53:46 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface java.sql.Statement
+2017-10-24 14:53:46 org.logicalcobwebs.proxool.ProxyFactory.getInterfaces(ProxyFactory.java:209) ProxyFactory.java DEBUG Implementing interface oracle.jdbc.OracleStatement
+2017-10-24 14:53:46 com.bjsxt.util.BjsxtJdbc.closeAll(BjsxtJdbc.java:107) BjsxtJdbc.java INFO 关闭连接
+2017-10-24 14:53:46 org.logicalcobwebs.proxool.ConnectionPool.putConnection(ConnectionPool.java:374) ConnectionPool.java DEBUG 000001 (00/05/00) - Connection #1 returned (now AVAILABLE)
+2017-10-24 14:54:10 org.logicalcobwebs.proxool.HouseKeeper.sweep(HouseKeeper.java:171) HouseKeeper.java DEBUG 000001 (00/05/00) - House keeping triggerSweep done
+2017-10-24 14:54:40 org.logicalcobwebs.proxool.HouseKeeper.sweep(HouseKeeper.java:171) HouseKeeper.java DEBUG 000001 (00/05/00) - House keeping triggerSweep done
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.ConnectionPool.shutdown(ConnectionPool.java:484) ConnectionPool.java INFO Shutting down 'test' pool immediately [localhost-startStop-2]
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.ConnectionPool.removeProxyConnection(ConnectionPool.java:441) ConnectionPool.java DEBUG 000001 (00/04/00) - #0005 removed because of shutdown.
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.ConnectionPool.shutdown(ConnectionPool.java:547) ConnectionPool.java DEBUG Connection #5 closed
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.ConnectionPool.removeProxyConnection(ConnectionPool.java:441) ConnectionPool.java DEBUG 000001 (00/03/00) - #0004 removed because of shutdown.
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.ConnectionPool.shutdown(ConnectionPool.java:547) ConnectionPool.java DEBUG Connection #4 closed
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.ConnectionPool.removeProxyConnection(ConnectionPool.java:441) ConnectionPool.java DEBUG 000001 (00/02/00) - #0003 removed because of shutdown.
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.ConnectionPool.shutdown(ConnectionPool.java:547) ConnectionPool.java DEBUG Connection #3 closed
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.ConnectionPool.removeProxyConnection(ConnectionPool.java:441) ConnectionPool.java DEBUG 000001 (00/01/00) - #0002 removed because of shutdown.
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.ConnectionPool.shutdown(ConnectionPool.java:547) ConnectionPool.java DEBUG Connection #2 closed
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.ConnectionPool.removeProxyConnection(ConnectionPool.java:441) ConnectionPool.java DEBUG 000001 (00/00/00) - #0001 removed because of shutdown.
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.ConnectionPool.shutdown(ConnectionPool.java:547) ConnectionPool.java DEBUG Connection #1 closed
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.ConnectionPool.shutdown(ConnectionPool.java:564) ConnectionPool.java INFO 'test' pool has been closed down by localhost-startStop-2 in 38 milliseconds.
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.ShutdownHook.remove(ShutdownHook.java:41) ShutdownHook.java DEBUG Removed shutdownHook
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.PrototyperController.shutdown(PrototyperController.java:100) PrototyperController.java INFO Stopping Prototyper thread
+2017-10-24 14:55:05 org.logicalcobwebs.proxool.HouseKeeperController.shutdown(HouseKeeperController.java:107) HouseKeeperController.java INFO Stopping HouseKeeper thread
+2017-10-24 14:55:11 org.logicalcobwebs.proxool.ProxoolFacade.registerConnectionPool(ProxoolFacade.java:86) ProxoolFacade.java INFO Proxool 0.9.1 (23-Aug-2008 11:10)
+2017-10-24 14:55:22 org.logicalcobwebs.proxool.ConnectionPool.shutdown(ConnectionPool.java:484) ConnectionPool.java INFO Shutting down 'test' pool immediately [localhost-startStop-2]
+2017-10-24 14:55:22 org.logicalcobwebs.proxool.PrototyperController.shutdown(PrototyperController.java:100) PrototyperController.java INFO Stopping Prototyper thread
+2017-10-24 14:55:22 org.logicalcobwebs.proxool.HouseKeeperController.shutdown(HouseKeeperController.java:107) HouseKeeperController.java INFO Stopping HouseKeeper thread
+2017-10-24 14:55:27 org.logicalcobwebs.proxool.ProxoolFacade.registerConnectionPool(ProxoolFacade.java:86) ProxoolFacade.java INFO Proxool 0.9.1 (23-Aug-2008 11:10)
+2017-10-24 14:55:32 com.bjsxt.util.BjsxtJdbc.getConnect(BjsxtJdbc.java:66) BjsxtJdbc.java INFO info创建连接
+2017-10-24 14:55:33 com.bjsxt.util.BjsxtJdbc.getPreparedStatement(BjsxtJdbc.java:82) BjsxtJdbc.java INFO 创建sql命令发送器
+2017-10-24 14:55:33 com.bjsxt.util.BjsxtJdbc.closeAll(BjsxtJdbc.java:107) BjsxtJdbc.java INFO 关闭连接
+2017-10-24 14:55:59 org.logicalcobwebs.proxool.ConnectionPool.shutdown(ConnectionPool.java:484) ConnectionPool.java INFO Shutting down 'test' pool immediately [localhost-startStop-2]
+2017-10-24 14:55:59 org.logicalcobwebs.proxool.PrototyperController.shutdown(PrototyperController.java:100) PrototyperController.java INFO Stopping Prototyper thread
+2017-10-24 14:55:59 org.logicalcobwebs.proxool.HouseKeeperController.shutdown(HouseKeeperController.java:107) HouseKeeperController.java INFO Stopping HouseKeeper thread
+2017-10-24 14:56:05 org.logicalcobwebs.proxool.ProxoolFacade.registerConnectionPool(ProxoolFacade.java:86) ProxoolFacade.java INFO Proxool 0.9.1 (23-Aug-2008 11:10)
+2017-10-24 14:56:05 org.logicalcobwebs.proxool.Prototyper.sweep(Prototyper.java:105) Prototyper.java ERROR Prototype
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:439)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:388)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:381)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:564)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:431)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:436)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:186)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:366)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:752)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:359)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:187)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.Prototyper.sweep(Prototyper.java:102)
+	at org.logicalcobwebs.proxool.PrototyperThread.run(PrototyperThread.java:44)
+2017-10-24 14:56:13 org.logicalcobwebs.proxool.ConnectionPool.shutdown(ConnectionPool.java:484) ConnectionPool.java INFO Shutting down 'test' pool immediately [localhost-startStop-1]
+2017-10-24 14:56:13 org.logicalcobwebs.proxool.PrototyperController.shutdown(PrototyperController.java:100) PrototyperController.java INFO Stopping Prototyper thread
+2017-10-24 14:56:13 org.logicalcobwebs.proxool.HouseKeeperController.shutdown(HouseKeeperController.java:107) HouseKeeperController.java INFO Stopping HouseKeeper thread
+2017-10-24 14:56:19 org.logicalcobwebs.proxool.ProxoolFacade.registerConnectionPool(ProxoolFacade.java:86) ProxoolFacade.java INFO Proxool 0.9.1 (23-Aug-2008 11:10)
+2017-10-24 14:56:20 org.logicalcobwebs.proxool.Prototyper.sweep(Prototyper.java:105) Prototyper.java ERROR Prototype
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:439)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:388)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:381)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:564)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:431)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:436)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:186)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:366)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:752)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:359)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:187)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.Prototyper.sweep(Prototyper.java:102)
+	at org.logicalcobwebs.proxool.PrototyperThread.run(PrototyperThread.java:44)
+2017-10-24 14:56:41 org.logicalcobwebs.proxool.ConnectionPool.shutdown(ConnectionPool.java:484) ConnectionPool.java INFO Shutting down 'test' pool immediately [localhost-startStop-2]
+2017-10-24 14:56:41 org.logicalcobwebs.proxool.PrototyperController.shutdown(PrototyperController.java:100) PrototyperController.java INFO Stopping Prototyper thread
+2017-10-24 14:56:41 org.logicalcobwebs.proxool.HouseKeeperController.shutdown(HouseKeeperController.java:107) HouseKeeperController.java INFO Stopping HouseKeeper thread
+2017-10-24 14:57:45 org.logicalcobwebs.proxool.ProxoolFacade.registerConnectionPool(ProxoolFacade.java:86) ProxoolFacade.java INFO Proxool 0.9.1 (23-Aug-2008 11:10)
+2017-10-24 14:57:54 com.bjsxt.util.BjsxtJdbc.getConnect(BjsxtJdbc.java:66) BjsxtJdbc.java INFO info创建连接
+2017-10-24 14:57:55 com.bjsxt.util.BjsxtJdbc.getPreparedStatement(BjsxtJdbc.java:82) BjsxtJdbc.java INFO 创建sql命令发送器
+2017-10-24 14:57:56 com.bjsxt.util.BjsxtJdbc.closeAll(BjsxtJdbc.java:107) BjsxtJdbc.java INFO 关闭连接
+2017-10-24 15:00:04 org.logicalcobwebs.proxool.ConnectionPool.shutdown(ConnectionPool.java:484) ConnectionPool.java INFO Shutting down 'test' pool immediately [localhost-startStop-2]
+2017-10-24 15:00:04 org.logicalcobwebs.proxool.PrototyperController.shutdown(PrototyperController.java:100) PrototyperController.java INFO Stopping Prototyper thread
+2017-10-24 15:00:04 org.logicalcobwebs.proxool.HouseKeeperController.shutdown(HouseKeeperController.java:107) HouseKeeperController.java INFO Stopping HouseKeeper thread
+2017-10-24 15:00:09 org.logicalcobwebs.proxool.ProxoolFacade.registerConnectionPool(ProxoolFacade.java:86) ProxoolFacade.java INFO Proxool 0.9.1 (23-Aug-2008 11:10)
+2017-10-24 15:00:14 com.bjsxt.util.BjsxtJdbc.getConnect(BjsxtJdbc.java:52) BjsxtJdbc.java ERROR 创建连接出错2
+2017-10-24 15:00:14 com.bjsxt.util.BjsxtJdbc.getPreparedStatement(BjsxtJdbc.java:84) BjsxtJdbc.java INFO 创建sql命令发送器
+2017-10-24 15:00:14 com.bjsxt.util.BjsxtJdbc.closeAll(BjsxtJdbc.java:109) BjsxtJdbc.java INFO 关闭连接
+2017-10-24 15:03:39 org.logicalcobwebs.proxool.ConnectionPool.shutdown(ConnectionPool.java:484) ConnectionPool.java INFO Shutting down 'test' pool immediately [localhost-startStop-2]
+2017-10-24 15:03:39 org.logicalcobwebs.proxool.PrototyperController.shutdown(PrototyperController.java:100) PrototyperController.java INFO Stopping Prototyper thread
+2017-10-24 15:03:39 org.logicalcobwebs.proxool.HouseKeeperController.shutdown(HouseKeeperController.java:107) HouseKeeperController.java INFO Stopping HouseKeeper thread
